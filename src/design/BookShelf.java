@@ -38,7 +38,6 @@ public class BookShelf implements Aggregate {
         last++;
     }
 
-
     public int getLength() {
         return last;
     }

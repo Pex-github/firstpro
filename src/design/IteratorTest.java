@@ -21,7 +21,8 @@ public class IteratorTest {
 
     public static void main(String[] args) {
 
-        BookShelf bookShelf = new BookShelf(4);
+        BookShelf bookShelf;
+        bookShelf = new BookShelf(4);
         bookShelf.appendBook(new Book("精神现象学"));
         bookShelf.appendBook(new Book("纯粹理性批判"));
         bookShelf.appendBook(new Book("逻辑学"));
