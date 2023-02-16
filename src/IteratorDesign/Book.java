@@ -1,4 +1,4 @@
-package design;
+package IteratorDesign;
 
 public class Book {
     private String name;
